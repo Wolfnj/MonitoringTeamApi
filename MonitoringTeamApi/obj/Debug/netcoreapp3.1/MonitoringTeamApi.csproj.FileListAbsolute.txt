@@ -2,7 +2,6 @@ C:\Users\Nwolf\Documents\SPRING 2020\Software Engineering II\Sprint 2\TryAgain\M
 C:\Users\Nwolf\Documents\SPRING 2020\Software Engineering II\Sprint 2\TryAgain\MonitoringTeamApi\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Nwolf\Documents\SPRING 2020\Software Engineering II\Sprint 2\TryAgain\MonitoringTeamApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\Nwolf\Documents\SPRING 2020\Software Engineering II\Sprint 2\TryAgain\MonitoringTeamApi\bin\Debug\netcoreapp3.1\MonitoringTeamApi.exe
-C:\Users\Nwolf\Documents\SPRING 2020\Software Engineering II\Sprint 2\TryAgain\MonitoringTeamApi\obj\Debug\netcoreapp3.1\MonitoringTeamApi.csprojAssemblyReference.cache
 C:\Users\Nwolf\Documents\SPRING 2020\Software Engineering II\Sprint 2\TryAgain\MonitoringTeamApi\obj\Debug\netcoreapp3.1\staticwebassets\MonitoringTeamApi.StaticWebAssets.Manifest.cache
 C:\Users\Nwolf\Documents\SPRING 2020\Software Engineering II\Sprint 2\TryAgain\MonitoringTeamApi\obj\Debug\netcoreapp3.1\staticwebassets\MonitoringTeamApi.StaticWebAssets.xml
 C:\Users\Nwolf\Documents\SPRING 2020\Software Engineering II\Sprint 2\TryAgain\MonitoringTeamApi\obj\Debug\netcoreapp3.1\MonitoringTeamApi.AssemblyInfoInputs.cache
@@ -141,3 +140,4 @@ C:\Users\Nwolf\Documents\SPRING 2020\Software Engineering II\Sprint 2\TryAgain\M
 C:\Users\Nwolf\Documents\SPRING 2020\Software Engineering II\Sprint 2\TryAgain\MonitoringTeamApi\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Nwolf\Documents\SPRING 2020\Software Engineering II\Sprint 2\TryAgain\MonitoringTeamApi\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Nwolf\Documents\SPRING 2020\Software Engineering II\Sprint 2\TryAgain\MonitoringTeamApi\obj\Debug\netcoreapp3.1\MonitoringTeamApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Nwolf\Documents\SPRING 2020\Software Engineering II\Sprint 2\TryAgain\MonitoringTeamApi\obj\Debug\netcoreapp3.1\MonitoringTeamApi.csprojAssemblyReference.cache

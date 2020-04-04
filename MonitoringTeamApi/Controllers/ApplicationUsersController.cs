@@ -24,7 +24,8 @@ namespace MonitoringTeamApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ApplicationUser>>> GetApplicationUser()
         {
-            return await _context.ApplicationUser.ToListAsync();
+            var result =  await _context.ApplicationUser.ToListAsync();
+            return Ok(result);
         }
 
         // GET: api/ApplicationUsers/5

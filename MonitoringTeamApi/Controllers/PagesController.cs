@@ -20,18 +20,26 @@ namespace MonitoringTeamApi.Controllers
             _context = context;
         }
 
+
+
+
+
+
+
         // GET: api/Pages
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Pages>>> GetPages()
+        public ActionResult<IEnumerable<Pages>> GetPages()
         {
-            return await _context.Pages.ToListAsync();
+            var pages = _context.Pages.ToList();
+
+            return Ok(pages);
         }
 
         // GET: api/Pages/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Pages>> GetPages(int id)
+        public ActionResult<Pages> GetPages(int id)
         {
-            var pages = await _context.Pages.FindAsync(id);
+            var pages =  _context.Pages.Find(id);
 
             if (pages == null)
             {
@@ -98,7 +106,7 @@ namespace MonitoringTeamApi.Controllers
             _context.Pages.Remove(pages);
             await _context.SaveChangesAsync();
 
-            return pages;
+            return Ok(pages);
         }
 
         private bool PagesExists(int id)

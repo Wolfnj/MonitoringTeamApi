@@ -24,7 +24,8 @@ namespace MonitoringTeamApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Logs>>> GetLogs()
         {
-            return await _context.Logs.ToListAsync();
+            var result =  await _context.Logs.ToListAsync();
+            return Ok(result);
         }
 
         // GET: api/Logs/5

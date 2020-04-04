@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitoringTeamApi", "MonitoringTeamApi.csproj", "{8BD43B0F-84A3-49D1-BB2F-81C125232CA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonitoringTeamApi", "MonitoringTeamApi.csproj", "{8BD43B0F-84A3-49D1-BB2F-81C125232CA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api-tests", "..\Api-tests\Api-tests.csproj", "{AADEE450-002C-47B0-91FB-9EE24CDF970C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8BD43B0F-84A3-49D1-BB2F-81C125232CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BD43B0F-84A3-49D1-BB2F-81C125232CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BD43B0F-84A3-49D1-BB2F-81C125232CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AADEE450-002C-47B0-91FB-9EE24CDF970C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AADEE450-002C-47B0-91FB-9EE24CDF970C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AADEE450-002C-47B0-91FB-9EE24CDF970C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AADEE450-002C-47B0-91FB-9EE24CDF970C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
