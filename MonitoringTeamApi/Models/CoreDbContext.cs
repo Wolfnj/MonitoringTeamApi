@@ -23,8 +23,18 @@ namespace MonitoringTeamApi.Models
         public virtual DbSet<AspNetUserRoles> AspNetUserRoles { get; set; }
         public virtual DbSet<AspNetUserTokens> AspNetUserTokens { get; set; }
         public virtual DbSet<AspNetUsers> AspNetUsers { get; set; }
+        public virtual DbSet<LogCreateVm> LogCreateVm { get; set; }
+        public virtual DbSet<LogDeleteVm> LogDeleteVm { get; set; }
+        public virtual DbSet<LogEditVm> LogEditVm { get; set; }
+        public virtual DbSet<LogListVm> LogListVm { get; set; }
         public virtual DbSet<Logs> Logs { get; set; }
+        public virtual DbSet<Orders> Orders { get; set; }
+        public virtual DbSet<PageCreateVm> PageCreateVm { get; set; }
+        public virtual DbSet<PageDeleteVm> PageDeleteVm { get; set; }
+        public virtual DbSet<PageEditVm> PageEditVm { get; set; }
+        public virtual DbSet<PageListVm> PageListVm { get; set; }
         public virtual DbSet<Pages> Pages { get; set; }
+        public virtual DbSet<UserListVm> UserListVm { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -39,7 +49,15 @@ namespace MonitoringTeamApi.Models
         {
             modelBuilder.Entity<ApplicationUser>(entity =>
             {
+                entity.HasIndex(e => e.PageCreateVmid);
+
+                entity.HasIndex(e => e.PageDeleteVmid);
+
+                entity.HasIndex(e => e.PageEditVmid);
+
                 entity.HasIndex(e => e.PageInfoId);
+
+                entity.HasIndex(e => e.PageListVmid);
 
                 entity.HasIndex(e => e.UserId);
             });
@@ -96,7 +114,20 @@ namespace MonitoringTeamApi.Models
 
             modelBuilder.Entity<Logs>(entity =>
             {
+                entity.HasIndex(e => e.PageCreateVmid);
+
+                entity.HasIndex(e => e.PageDeleteVmid);
+
+                entity.HasIndex(e => e.PageEditVmid);
+
                 entity.HasIndex(e => e.PageInfoId);
+
+                entity.HasIndex(e => e.PageListVmid);
+            });
+
+            modelBuilder.Entity<Orders>(entity =>
+            {
+                entity.Property(e => e.OrderId).ValueGeneratedNever();
             });
 
             OnModelCreatingPartial(modelBuilder);

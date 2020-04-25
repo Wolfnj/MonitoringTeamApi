@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="MonitoringTeamApi" tags="IisApp">
+  <parameter name="IIS Web Application Name" description="" value="monitoringteamapi" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Nwolf\\Documents\\SPRING\ 2020\\Software\ Engineering\ II\\Sprint\ 2\\TryAgain\\MonitoringTeamApi\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>
