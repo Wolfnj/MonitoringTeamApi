@@ -10,11 +10,11 @@ namespace MonitoringTeamApi.Models
         [Key]
         [Column("orderID")]
         public int OrderId { get; set; }
-        [Column("totalCost")]
-        public string TotalCost { get; set; }
-        [Column("purchaseDate", TypeName = "decimal(16, 2)")]
-        public decimal? PurchaseDate { get; set; }
-        [Column("bicycleID")]
+        [Column("totalCost", TypeName = "decimal(16, 2)")]
+        public decimal? TotalCost { get; set; }
+        [Column("purchaseDate")]
+        public string PurchaseDate { get; set; }
+        [Column("bicycleId")]
         public int? BicycleId { get; set; }
         [Column("customerID")]
         public int? CustomerId { get; set; }
